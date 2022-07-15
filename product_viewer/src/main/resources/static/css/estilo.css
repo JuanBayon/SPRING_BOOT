@@ -1,0 +1,59 @@
+body{ 
+	background-color: #8FE0E0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #81C2C2;
+}
+
+li a {
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li {
+	border: 10px;
+	padding-top: 10px;
+}
+
+.detalle {
+	padding-left: 15px;
+}
+
+header, footer {
+	background-color: #1EADAD;
+}
+
+html {
+	font-family: 'Syncopate', sans-serif;
+}
+
+h2, h3 {
+	color: 1D9E9E;
+}
+
+hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 4px;
+	border-width: 1;
+	background-color: 1D9E9E;
+}
+
+button, .paginate_button {
+	background-color: #81C2C2 !important;
+}
+
+#listado #table thead tr th {
+	text-align: left;
+	padding: 20px;
+	padding-left: 10px;
+}
+
+#textform {
+	padding-right: 8px;
+}

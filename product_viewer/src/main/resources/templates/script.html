@@ -1,0 +1,21 @@
+<div th:fragment="script">
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" charset="utf8"src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready(function() {
+	$('#table').DataTable();
+});
+</script>
+<script>
+document.querySelectorAll("#eliminar").forEach(item=>item.addEventListener("click", elimina));
+function elimina(event) {
+	let confirmation = confirm("Seguro que quieres eliminar el elemento seleccionado?");
+	if (!confirmation) {
+		event.preventDefault();
+	}
+}
+</script>
+<script>
+verCrear.addEventListener("click", ()=>crearProducto.hidden=false);
+</script>
+</div>
