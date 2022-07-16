@@ -1,0 +1,1 @@
+INSERT INTO PROJECT(name, description, image) VALUES ('currency information single-page', 'A Javascript project showing the currencies from an external API and their equivalencies between them', FILE_READ('./static/images/portfolio1.png'));

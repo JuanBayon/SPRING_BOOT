@@ -1,0 +1,70 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{default}">
+
+ <div id="page" layout:fragment="content">
+
+    <article>
+    
+    <div class="container">
+
+      <h1 class="line-marked">Contact</h1>
+
+      <div class="contact-wrapper">
+
+      <section class="contact-data">
+
+          <h2>Contact me</h2>
+          
+          <div class="list_data">
+            <ul class="list-as-list">
+              <li class="phone"><a class="font-icon" href="tel:0034693706833" title="Link to the telephone">0034 693 706 833</a></li>
+              <li><br></li>
+              <li class="email"><a class="font-icon" href="mailto:juanbayonfernandez@gmail.com" title="Link to the email">juanbayonfernandez@gmail.com</a></li>
+              <li><br></li>
+              <li><a class="font-icon" href="https://github.com/JuanBayon" title="Juan Bayon GitHub" target="_blank"><i class="fa fa-github"></i> JuanBayon</a></li>
+              <li><a class="font-icon" href="https://www.linkedin.com/in/JuanBayon/" title="Juan Bayon Linkedin" target="_blank"><i class="fa fa-linkedin"></i> JuanBayon</a></li>
+              <li><a class="font-icon" href="https://discordapp.com/users/829315710198087750/" title="Discord contact" target="_blank"><i class="fa-brands fa-discord"></i>JuanBayon</a></li>
+            </ul>
+          </div>
+
+
+      </section>
+
+      <section class="form">
+
+        <h3>Send me a message</h3>
+
+        <form>
+
+        <ul class="list-as-list">
+        <li class="input">
+          <label for="name">Your name</label>
+          <input class="form-control" type="text" name="name" id="name" required>
+        </li>
+        <li class="input">
+          <label for="email">Email</label>
+          <input class="form-control" type="email" name="email" id="email" required>
+        </li>
+        <li class="input">
+          <label for="phone">Subject</label>
+          <input class="form-control" type="text" name="phone" id="phone" required>
+        </li>
+        <li class="input textarea">
+          <label for="message">Message</label>
+          <textarea class="form-control textfield" name="message" id="message" cols="30" rows="8" required></textarea>
+        </li>
+        <li class="button">
+          <button type="submit">Send</button>
+        </li>
+        </ul>
+
+        </form>
+
+      </section>
+      
+    </div>
+    </div>
+  </article>
+  </div>
+
+</html>

@@ -1,0 +1,30 @@
+<header th:fragment="header">
+  <div class="container">
+
+    <a class="skip-link" href='#main' title="Skip to main section">Skip to content</a>
+
+    <div class="icon_name">
+      <img src="./images/jb.png" alt="My Portfolio icon">
+      <p>JUAN BAYON</p>
+    </div>
+
+    <nav class="links">
+      <ul>
+        <li><a href="/" title="CV page" th:attr="class=${actual=='resume' ? 'selected' : ''}">Resume</a></li>
+        <li><a href="/portfolio" title="Portfolio page" th:attr="class=${actual=='portfolio' ? 'selected' : ''}">Portfolio</a></li>
+        <li><a href="/contact" title="Contact page" th:attr="class=${actual=='contact' ? 'selected' : ''}">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <div class="dark-mode-menu">
+      <a class="font-icon color-mode" href="#" title="Color mode"><span>Color mode</span></a>
+      <a class="burger-menu nav-icon" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+  </div>
+</header>
